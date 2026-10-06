@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "release": "slam_t2_1mm_v1",
+  "archive": "slam_t2_1mm_v1.tar.zst",
+  "url": "https://stacks.stanford.edu/file/tz884qn8750/slam_t2_1mm_v1.tar.zst",
+  "record": "https://purl.stanford.edu/tz884qn8750",
+  "doi": "10.25740/tz884qn8750",
+  "bytes": 85132072749,
+  "sha256": "f62c81c389b851a0f06911bae9885562cc475cd283d1e27d665e3f5993d69e75",
+  "extracted_bytes": 206525429811,
+  "compression": "zstd level 3"
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "release": "slam_t2_1mm_v1",
+  "n_scans": 362,
+  "n_slices": 19362,
+  "files": {
+    "data/ksp.bin": {
+      "bytes": 98142105600,
+      "sha256": "36e1ac1ce984b076ecd686a70e0cd77c9abfb57d0cb997c75e2b8af5ef254750"
+    },
+    "data/mps.bin": {
+      "bytes": 98142105600,
+      "sha256": "b5aaec169fcabef32a55e82c6763df8f0583ad6f468036f69282b19da1272c5f"
+    },
+    "data/gt.bin": {
+      "bytes": 8178508800,
+      "sha256": "c65f377b7ba9a41e212161e80161310e9bb910c88c8b58ff3de63b5c6fca7581"
+    },
+    "data/eig.bin": {
+      "bytes": 2044627200,
+      "sha256": "d1474e26288c584a84a6558759f7386bfaf08f626acf2b4fd6a3103b6247dfbd"
+    },
+    "data/pe_mask.bin": {
+      "bytes": 79640,
+      "sha256": "f9105b9dbd1b23de397218a577c48d6ef00d0d6ef8d17f4cba78970ed0aff51e"
+    },
+    "data/scans.parquet": {
+      "bytes": 54180,
+      "sha256": "707869452416bd08d9d985180bd565b4e2b6cc9b6a96c7c2898675871b0d1bed"
+    },
+    "data/slices.parquet": {
+      "bytes": 1816111,
+      "sha256": "390797b41990439d62da5a0512692506f4e5920f7a17bb0df111d0e19f4120fb"
+    },
+    "data/noise.npz": {
+      "bytes": 16131854,
+      "sha256": "42a1c7ab5a014a44be8222dc02184dfa97f05f9e5537dfc75ddb2df843a223f9"
+    },
+    "stats.json": {
+      "bytes": 826,
+      "sha256": "27fe8be537e5663988f3ba8df6441c0449a08b3146cf2b4be4447fa1c8fee981"
+    }
+  }
+}

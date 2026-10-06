@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slam-t2-data"
+version = "1.0.0"
+description = "Load and reconstruct processed SLAM T2 MRI measurements"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy>=1.26", "pandas>=2", "pyarrow>=14", "torch>=2.2"]
+
+[project.optional-dependencies]
+dev = ["pytest", "pre-commit", "black", "isort", "flake8", "build"]
+
+[project.scripts]
+slam-t2-reconstruct = "slam_t2_data.reconstruct:main"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["slam_t2_data"]
+namespaces = false
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

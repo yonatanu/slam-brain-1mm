@@ -1,0 +1,13 @@
+global-exclude *
+include MANIFEST.in pyproject.toml README.md environment.yml
+include .gitignore .pre-commit-config.yaml
+include code/slam_t2.py
+include scripts/setup_data.py
+include docs/data.md docs/reconstruction.md
+include metadata/scans.parquet metadata/slices.parquet
+include manifests/archive-v1.sha256 manifests/data-v1.sha256
+include manifests/data-v1.json manifests/metadata-v1.json manifests/release-v1.json
+include src/slam_t2_data/__init__.py src/slam_t2_data/dataset.py
+include src/slam_t2_data/recon.py src/slam_t2_data/reconstruct.py
+include tests/test_dataset.py tests/test_recon.py tests/test_metadata.py
+include tests/test_setup_data.py

@@ -1,0 +1,15 @@
+name: slam-t2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - setuptools
+  - wheel
+  - numpy
+  - pandas
+  - pyarrow
+  - pytorch
+  - zstd
+  - pip:
+      - -e .[dev]
